@@ -1,0 +1,19 @@
+img {
+    width: 100px;
+    height: 50px;
+    filter:white;
+}
+li , input , form {
+    margin-left: 50px;
+}
+nav{
+    margin-left:170px;
+}
+.nav-items{
+    padding-top:8px;
+    color: black;
+    cursor: pointer;
+}
+.right-side{
+    margin-left: 250px;
+}

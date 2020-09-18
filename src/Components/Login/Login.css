@@ -1,0 +1,60 @@
+.form{
+    width:40%;
+    border-radius:10px;
+    margin-left:30%;
+    box-shadow: 5px 5px 10px rgb(185, 185, 185);
+    padding: 20px 0;
+    margin-top: 20px;
+}
+.text{
+    margin-left:60px;
+}
+#span {
+    color:orange;
+    font-weight: bold;
+    cursor: pointer;
+}
+#or{
+    margin-left:49%;
+    margin-top:30px;
+}
+.anotherLogin img{
+    width: 30px;
+    height: 30px;
+}
+.anotherLogin{
+    border:1px solid gray;
+    border-radius:50px;
+    width:350px;
+    height: 40px;
+    margin-left:38%;
+    padding-left: 5px;
+    padding-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.anotherLogin span {
+    margin-left:50px;
+}
+#create-account{
+    width:50ch;
+    margin: 15px 180px;
+}
+#text{
+    margin-left:150px;
+}
+.getInput{
+    width:400px;
+    height: 50px;
+    background-color:gainsboro;
+    border:none;
+    margin:10px;
+    border-radius:5px;
+    padding-left: 10px;
+}
+#comeIn{
+    background-color:rgb(37, 37, 145);
+    font-weight:bold;
+    color: white;
+    box-shadow: 5px 5px 10px gray;
+}
