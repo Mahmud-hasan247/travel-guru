@@ -8,35 +8,46 @@ const Header = () => {
   return (
     <>
       <div>
-        <nav class="navbar navbar-expand-lg navbar-light ">
-          <button class="btn btn-light"><img src={logo} alt=""/></button>
-          <form class="form-inline my-2 my-lg-0">
-              <input className="form-control  input" placeholder="Search your Destination..." ></input>
-            </form>
+        <nav className="navbar navbar-expand-lg navbar-light ">
+          <Link to='/'>
+            <button
+              className="btn btn-light"
+            >
+              <img src={logo} alt="" />
+            </button>
+          </Link>
+          <form className="form-inline my-2 my-lg-0">
+            <input
+              className="form-control  input"
+              placeholder="Search your Destination..."
+            />
+          </form>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div
+            className="collapse navbar-collapse right-side"
+            id="navbarSupportedContent"
+          >
             <ul class="navbar-nav mr-auto">
-            <li class="nav-item items">
-                News
+              <Link to='/home'>
+                <li class="nav-item items">
+                  Home
               </li>
-              <li class="nav-item items">
+              </Link>
+              {/* <li class="nav-item items">
                 Destination
-              </li>
-              <li class="nav-item items">
+              </li> */}
+              {/* <li class="nav-item items">
                 Blog
-              </li>
-              <li class="nav-item items">
+              </li> */}
+              {/* <li class="nav-item items">
                 Contact
-              </li>
+              </li> */}
               <li class="nav-item">
-                <Link to ='/login'>
+                <Link to='/login'>
                   <Button variant="contained" color="primary">Login</Button>
                 </Link>
-                
               </li>
-              
             </ul>
-            
           </div>
         </nav>
       </div>

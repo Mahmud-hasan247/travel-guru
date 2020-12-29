@@ -1,17 +1,26 @@
 import React, { useContext } from 'react';
+import { Link } from 'react-router-dom';
 import logo from '../../../src/Logo.png';
 import { UserContext } from '../../App';
 import './AnotherHeader.css';
 
 const AnotherHeader = () => {
   const [signedInUser, setSignedInUser] = useContext(UserContext);
-    return (
-        <>
+  return (
+    <>
       <div>
         <nav class="navbar navbar-expand-lg navbar-light ">
-          <button class="btn btn-light"><img src={logo} alt=""/></button>
-          <div class="collapse navbar-collapse right-side" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
+          <Link to='/'>
+            <button
+              className="btn btn-light"
+            >
+              <img src={logo} alt="" />
+            </button>
+          </Link>
+          <div
+            className="collapse navbar-collapse right-side"
+            id="navbarSupportedContent">
+            {/* <ul class="navbar-nav mr-auto">
             <li class="nav-item nav-items">
                 News
               </li>
@@ -29,13 +38,13 @@ const AnotherHeader = () => {
               </li>
               
               
-            </ul>
-            
+            </ul> */}
+
           </div>
         </nav>
       </div>
     </>
-    );
+  );
 };
 
 export default AnotherHeader;
