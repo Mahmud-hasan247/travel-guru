@@ -1,6 +1,6 @@
 # Travel Guru
 
-## A Hotel Booking Web Application
+## A Travel Management Web Application
 
 ### `Here is some feature of this project...`
 
@@ -21,5 +21,5 @@
 * Netlify
 
 ### `View`
-#### [Website](angry-allen-78e7c5.netlify.app "Travel Guru")
-#### [LinkedIn](https://www.linkedin.com/in/mahmudhasan247/ "Mahmud Hasan") | [Portfolio](https://www.linkedin.com/in/mahmudhasan247/ "Mahmud Hasan")
+#### [Website](https://angry-allen-78e7c5.netlify.app/ "Travel Guru")
+#### [LinkedIn](https://www.linkedin.com/in/mahmudhasan247/ "Mahmud Hasan") | [Portfolio](https://infallible-curie-5e8952.netlify.app/ "Mahmud Hasan")
